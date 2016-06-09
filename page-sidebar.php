@@ -1,0 +1,12 @@
+<?php /* Template Name: Sidebar template */ ?>
+<?php get_header() ?>
+
+
+
+
+
+<?php get_sidebar(); ?>
+
+<?php get_footer() ?>
+
+

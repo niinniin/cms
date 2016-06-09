@@ -1,0 +1,97 @@
+/*
+Theme Name: ninastheme
+Author: Nina Juda
+Description: Theme made for school project
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Wordpress theme
+*/
+
+html {
+	height: 100%;
+	background:#eee;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	line-height: 1.5em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: lightgray;
+}
+#site-header {
+	background-image: url(fernrounded.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+#site-content {
+	max-width: 857px;
+	background: #fff;
+	margin: 0 auto;
+	padding: 22px;
+	border-radius:5px;
+min-height: 500px;
+}
+
+#site-content-right {
+	width:65%;
+  float: right;
+    padding: 22px;
+	background: #fff;
+	border-radius:5px;
+}
+
+
+#site-footer {
+	color: #fff;
+	text-align:center;
+	font-size:12px;
+	text-transform: uppercase;
+}
+
+#menu-home{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#menu-home ul{
+    margin: auto;
+    
+}
+#menu-home li{
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#site-sidebar {
+    float: left;
+    width: 15%;
+    list-style-type: none;
+    padding: 22px;
+    height: 455px;
+    box-shadow: 5px 5px 2.5px #EEE;
+    border-radius:5px;
+        
+}
+
+.ninja-forms-cont{
+    width:300px;
+    
+}
+
+#spider_popup_wrap {
+    background-color: white;   
+}
+
+
+.left  {
+    float: left;
+    width: 50%;
+}
